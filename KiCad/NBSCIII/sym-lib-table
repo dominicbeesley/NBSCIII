@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "NBSCIII-rescue")(type "KiCad")(uri "${KIPRJMOD}/NBSCIII-rescue.kicad_sym")(options "")(descr ""))
+)

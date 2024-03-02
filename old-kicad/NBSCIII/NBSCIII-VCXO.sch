@@ -1,0 +1,327 @@
+EESchema Schematic File Version 2  date 09/08/2012 12:37:56
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:analogue
+LIBS:NBSCIII-cache
+EELAYER 24  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 6 8
+Title ""
+Date "9 aug 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	7850 2150 1700 2150
+Connection ~ 8150 4850
+Wire Wire Line
+	1850 4850 9000 4850
+Wire Wire Line
+	4500 3650 4600 3650
+Connection ~ 3200 3650
+Wire Wire Line
+	3200 3650 3200 4050
+Wire Wire Line
+	2500 3650 2500 4050
+Connection ~ 2500 4850
+Wire Wire Line
+	2500 4450 2500 4850
+Wire Wire Line
+	5950 3650 5200 3650
+Wire Wire Line
+	6250 3450 6250 3050
+Connection ~ 5400 3650
+Wire Wire Line
+	5400 4150 5400 3050
+Connection ~ 6250 4100
+Wire Wire Line
+	6250 3850 6250 4150
+Wire Wire Line
+	5750 4200 5750 4050
+Connection ~ 5400 4850
+Wire Wire Line
+	5400 4850 5400 4650
+Wire Wire Line
+	7850 3950 8950 3950
+Connection ~ 7200 4850
+Wire Wire Line
+	7200 4850 7200 4500
+Connection ~ 7200 2150
+Wire Wire Line
+	7200 3450 7200 2150
+Connection ~ 8150 2800
+Wire Wire Line
+	8150 4850 8150 2800
+Wire Wire Line
+	8650 2650 8650 2800
+Wire Wire Line
+	8650 2800 7700 2800
+Wire Wire Line
+	7700 2800 7700 2650
+Wire Wire Line
+	7700 2150 7700 2250
+Connection ~ 7700 2150
+Wire Wire Line
+	8650 2150 8650 2250
+Connection ~ 8650 2150
+Wire Wire Line
+	7200 4000 7200 3850
+Wire Wire Line
+	7450 3950 7200 3950
+Connection ~ 7200 3950
+Wire Wire Line
+	6550 3650 6900 3650
+Wire Wire Line
+	6250 2150 6250 2550
+Connection ~ 6250 2150
+Wire Wire Line
+	5750 4850 5750 4600
+Connection ~ 5750 4850
+Connection ~ 5750 3650
+Wire Wire Line
+	5750 4100 6250 4100
+Connection ~ 5750 4100
+Wire Wire Line
+	6250 4850 6250 4650
+Connection ~ 6250 4850
+Wire Wire Line
+	5400 2550 5400 2150
+Connection ~ 5400 2150
+Connection ~ 6250 3300
+Wire Wire Line
+	3200 4850 3200 4450
+Connection ~ 3200 4850
+Wire Wire Line
+	3400 3650 3100 3650
+Wire Wire Line
+	3800 3650 3900 3650
+Wire Wire Line
+	2600 3650 1850 3650
+Connection ~ 2500 3650
+Wire Wire Line
+	6250 3150 6550 3150
+Connection ~ 6250 3150
+Wire Wire Line
+	8450 2150 8950 2150
+Text HLabel 1850 3650 0    60   Input ~ 0
+CTL
+$Comp
+L C C1005
+U 1 1 4C88BDF6
+P 2500 4250
+F 0 "C1005" H 2550 4350 50  0000 L CNN
+F 1 "1000p" H 2550 4150 50  0000 L CNN
+	1    2500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1006
+U 1 1 4C88BDE3
+P 2850 3650
+F 0 "R1006" V 2930 3650 50  0000 C CNN
+F 1 "220k" V 2850 3650 50  0000 C CNN
+	1    2850 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODE D1000
+U 1 1 4C88BDDB
+P 3200 4250
+F 0 "D1000" H 3200 4350 40  0000 C CNN
+F 1 "1N4005" H 3200 4150 40  0000 C CNN
+	1    3200 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C1006
+U 1 1 4C88BDCF
+P 3600 3650
+F 0 "C1006" H 3650 3750 50  0000 L CNN
+F 1 "100n" H 3650 3550 50  0000 L CNN
+	1    3600 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L VARINDUCTOR L1002
+U 1 1 4C88BDC2
+P 4200 3650
+F 0 "L1002" V 4150 3650 40  0000 C CNN
+F 1 "9-33uH" V 4300 3650 40  0000 C CNN
+	1    4200 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CRYSTAL X1000
+U 1 1 4C88BC85
+P 4900 3650
+F 0 "X1000" H 4900 3800 60  0000 C CNN
+F 1 "6.000Mhz HC49/U" H 4900 3500 60  0000 C CNN
+	1    4900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1003
+U 1 1 4C88BB5B
+P 5750 3850
+F 0 "C1003" H 5650 3950 50  0000 L CNN
+F 1 "270p" H 5800 3750 50  0000 L CNN
+	1    5750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1004
+U 1 1 4C88BB55
+P 5750 4400
+F 0 "C1004" H 5650 4500 50  0000 L CNN
+F 1 "68p" H 5800 4300 50  0000 L CNN
+	1    5750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1005
+U 1 1 4C88BB4E
+P 5400 4400
+F 0 "R1005" V 5480 4400 50  0000 C CNN
+F 1 "10k" V 5400 4400 50  0000 C CNN
+	1    5400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1004
+U 1 1 4C88BB48
+P 5400 2800
+F 0 "R1004" V 5480 2800 50  0000 C CNN
+F 1 "22k" V 5400 2800 50  0000 C CNN
+	1    5400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1003
+U 1 1 4C88BB23
+P 6250 2800
+F 0 "R1003" V 6330 2800 50  0000 C CNN
+F 1 "2k2" V 6250 2800 50  0000 C CNN
+	1    6250 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1002
+U 1 1 4C88BB1F
+P 6250 4400
+F 0 "R1002" V 6330 4400 50  0000 C CNN
+F 1 "1k" V 6250 4400 50  0000 C CNN
+	1    6250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q1001
+U 1 1 4C88BAF9
+P 6150 3650
+F 0 "Q1001" H 6550 3550 50  0000 R CNN
+F 1 "2SC1906" H 6200 3900 50  0000 R CNN
+	1    6150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1001
+U 1 1 4C88BAD5
+P 6550 3400
+F 0 "R1001" V 6630 3400 50  0000 C CNN
+F 1 "220" V 6550 3400 50  0000 C CNN
+	1    6550 3400
+	-1   0    0    1   
+$EndComp
+Text HLabel 8950 2150 2    60   Input ~ 0
++12
+Text HLabel 9000 4850 2    60   Input ~ 0
+GND
+Text HLabel 8950 3950 2    60   Output ~ 0
+OSC
+$Comp
+L C C1002
+U 1 1 4C88BA72
+P 7650 3950
+F 0 "C1002" H 7700 4050 50  0000 L CNN
+F 1 "10n" H 7700 3850 50  0000 L CNN
+	1    7650 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L R 3k3
+U 1 1 4C88BA3A
+P 7200 4250
+F 0 "3k3" V 7280 4250 50  0000 C CNN
+F 1 "R1000" V 7200 4250 50  0000 C CNN
+	1    7200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q1000
+U 1 1 4C88BA2F
+P 7100 3650
+F 0 "Q1000" H 7100 3500 50  0000 R CNN
+F 1 "BC337-25" H 7100 3800 50  0000 R CNN
+	1    7100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1000
+U 1 1 4C88B9D3
+P 8650 2450
+F 0 "C1000" H 8700 2550 50  0000 L CNN
+F 1 "100p" H 8700 2350 50  0000 L CNN
+	1    8650 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1001
+U 1 1 4C88B9CF
+P 7700 2450
+F 0 "C1001" H 7750 2550 50  0000 L CNN
+F 1 "1000p" H 7750 2350 50  0000 L CNN
+	1    7700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L1001
+U 1 1 4C88B9A5
+P 8150 2150
+F 0 "L1001" V 8100 2150 40  0000 C CNN
+F 1 "7.2mH" V 8250 2150 40  0000 C CNN
+	1    8150 2150
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,422 @@
+EESchema Schematic File Version 2  date 09/08/2012 12:37:56
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:analogue
+LIBS:NBSCIII-cache
+EELAYER 24  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 1 8
+Title ""
+Date "9 aug 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2650 6050 3800 6050
+Wire Wire Line
+	1550 5950 1250 5950
+Wire Wire Line
+	5850 6050 5550 6050
+Wire Wire Line
+	1550 6050 1150 6050
+Wire Wire Line
+	1150 6050 1150 5100
+Connection ~ 1150 5100
+Wire Wire Line
+	1550 5600 1250 5600
+Wire Wire Line
+	3800 4500 3600 4500
+Wire Wire Line
+	3600 4500 3600 5050
+Wire Wire Line
+	3600 5050 5750 5050
+Wire Wire Line
+	5750 5050 5750 5650
+Wire Wire Line
+	5750 5650 5550 5650
+Wire Wire Line
+	6550 3750 6150 3750
+Wire Wire Line
+	6150 3750 6150 3500
+Wire Wire Line
+	6150 3500 3300 3500
+Wire Wire Line
+	3300 3500 3300 3900
+Wire Wire Line
+	3300 3900 3100 3900
+Wire Wire Line
+	6550 4500 5950 4500
+Wire Wire Line
+	5950 4500 5950 4150
+Wire Wire Line
+	5950 4150 5550 4150
+Wire Wire Line
+	6550 4300 6050 4300
+Wire Wire Line
+	6050 4300 6050 3950
+Wire Wire Line
+	6050 3950 5550 3950
+Wire Wire Line
+	3800 4100 3400 4100
+Wire Wire Line
+	3800 3900 3400 3900
+Wire Wire Line
+	1550 4300 1100 4300
+Wire Wire Line
+	1550 4000 1100 4000
+Connection ~ 1400 2850
+Connection ~ 1400 1150
+Connection ~ 3600 1150
+Connection ~ 3600 1250
+Wire Wire Line
+	3600 1250 3600 1150
+Wire Wire Line
+	3600 1150 1250 1150
+Connection ~ 1400 2800
+Wire Wire Line
+	1400 2850 1400 2800
+Wire Wire Line
+	2350 2650 2350 2800
+Connection ~ 2350 2800
+Connection ~ 3200 2800
+Connection ~ 3200 1900
+Wire Wire Line
+	2800 1900 2800 2250
+Wire Wire Line
+	3600 2650 3600 2800
+Wire Wire Line
+	3600 2800 1250 2800
+Wire Wire Line
+	3200 1900 3200 2250
+Connection ~ 3600 1900
+Wire Wire Line
+	2350 2250 2350 1900
+Connection ~ 2800 1900
+Wire Wire Line
+	2800 2800 2800 2650
+Connection ~ 2800 2800
+Wire Wire Line
+	3200 2800 3200 2650
+Wire Wire Line
+	2350 1900 4150 1900
+Wire Wire Line
+	3600 1750 3600 2150
+Wire Wire Line
+	1100 3900 1550 3900
+Wire Wire Line
+	1550 4100 1100 4100
+Wire Wire Line
+	3800 4000 3400 4000
+Wire Wire Line
+	1100 5100 3350 5100
+Wire Wire Line
+	3350 5100 3350 4600
+Wire Wire Line
+	3350 4600 3800 4600
+Wire Wire Line
+	3800 5850 3400 5850
+Wire Wire Line
+	3800 5650 3400 5650
+Wire Wire Line
+	6550 4100 6150 4100
+Wire Wire Line
+	6550 3900 6150 3900
+Wire Wire Line
+	6550 4000 6150 4000
+Wire Wire Line
+	5550 4050 6000 4050
+Wire Wire Line
+	6000 4050 6000 4400
+Wire Wire Line
+	6000 4400 6550 4400
+Wire Wire Line
+	5550 4250 5900 4250
+Wire Wire Line
+	5900 4250 5900 4600
+Wire Wire Line
+	5900 4600 6550 4600
+Wire Wire Line
+	3800 4400 3700 4400
+Wire Wire Line
+	3700 4400 3700 4950
+Wire Wire Line
+	3700 4950 5650 4950
+Wire Wire Line
+	5650 4950 5650 5550
+Wire Wire Line
+	5650 5550 5550 5550
+Wire Wire Line
+	1250 2800 1250 2700
+Wire Wire Line
+	1550 5500 1250 5500
+Wire Wire Line
+	5550 5950 5850 5950
+Wire Wire Line
+	5700 4350 5550 4350
+Wire Wire Line
+	3800 4250 3200 4250
+Wire Wire Line
+	3200 4250 3200 5600
+Wire Wire Line
+	3200 5600 2650 5600
+Text Label 1250 5950 0    60   ~ 0
+video
+NoConn ~ 5850 6050
+Text Label 1300 5600 0    60   ~ 0
+0
+Text Label 1300 5500 0    60   ~ 0
++12
+$Sheet
+S 1550 5400 1100 1100
+U 4D051B42
+F0 "AccBurst" 60
+F1 "ACCBurst.sch" 60
+F2 "0" I L 1550 5600 60 
+F3 "+12" I L 1550 5500 60 
+F4 "Frame Pulse" I L 1550 6050 60 
+F5 "VIDEO" I L 1550 5950 60 
+F6 "BURST" O R 2650 6050 60 
+F7 "C" O R 2650 5600 60 
+$EndSheet
+Text Label 6250 4100 0    60   ~ 0
+0
+Text Label 6250 4000 0    60   ~ 0
+mid
+Text Label 6250 3900 0    60   ~ 0
++12
+$Sheet
+S 6550 3650 1700 1150
+U 4C88B90E
+F0 "Colour Matrix" 60
+F1 "NBSCIII-Colour-Matrix.sch" 60
+F2 "+12" I L 6550 3900 60 
+F3 "mid" I L 6550 4000 60 
+F4 "0" I L 6550 4100 60 
+F5 "U+" I L 6550 4300 60 
+F6 "V+" I L 6550 4400 60 
+F7 "R" O R 8250 3950 60 
+F8 "G" O R 8250 4150 60 
+F9 "B" O R 8250 4350 60 
+F10 "U-" I L 6550 4500 60 
+F11 "V-" I L 6550 4600 60 
+F12 "Y-" I L 6550 3750 60 
+$EndSheet
+Text Label 3500 5850 0    60   ~ 0
+0
+Text Label 3500 5650 0    60   ~ 0
++12
+$Sheet
+S 3800 5400 1750 1100
+U 4C88B910
+F0 "Subcarrier clock" 60
+F1 "NBSCIII-Subcarrier.sch" 60
+F2 "+12" I L 3800 5650 60 
+F3 "0" I L 3800 5850 60 
+F4 "SC clock U" O R 5550 5550 60 
+F5 "SC clock V" O R 5550 5650 60 
+F6 "SC clock V-" O R 5550 6050 60 
+F7 "SC clock U-" O R 5550 5950 60 
+F8 "BURST" I L 3800 6050 60 
+$EndSheet
+$Comp
+L CONN_1 P4
+U 1 1 4907472A
+P 950 5100
+F 0 "P4" H 1030 5100 40  0000 L CNN
+F 1 "CONN_1" H 950 5155 30  0001 C CNN
+	1    950  5100
+	-1   0    0    -1  
+$EndComp
+Text Label 3500 4100 0    60   ~ 0
+0
+Text Label 3500 4000 0    60   ~ 0
+mid
+Text Label 3500 3900 0    60   ~ 0
++12
+$Sheet
+S 3800 3650 1750 1150
+U 4C88B912
+F0 "U V Decoder" 60
+F1 "NBSCIII-UV-decoder.sch" 60
+F2 "+12" I L 3800 3900 60 
+F3 "mid" I L 3800 4000 60 
+F4 "0" I L 3800 4100 60 
+F5 "C" I L 3800 4250 60 
+F6 "SC clock U" I L 3800 4400 60 
+F7 "SC clock V" I L 3800 4500 60 
+F8 "Frame Pulse" I L 3800 4600 60 
+F9 "U" O R 5550 3950 60 
+F10 "V" O R 5550 4050 60 
+F11 "Vburst" O R 5550 4350 60 
+F12 "U-" O R 5550 4150 60 
+F13 "V-" O R 5550 4250 60 
+$EndSheet
+Text Notes 1900 2950 0    60   ~ 0
+Dummy split rail
+Text Label 1200 4300 0    60   ~ 0
+video
+Text Label 1250 4100 0    60   ~ 0
+0
+Text Label 1250 4000 0    60   ~ 0
+mid
+Text Label 1250 3900 0    60   ~ 0
++12
+$Comp
+L CONN_1 P3
+U 1 1 49073697
+P 950 4300
+F 0 "P3" H 1030 4300 40  0000 L CNN
+F 1 "CONN_1" H 950 4355 30  0001 C CNN
+	1    950  4300
+	-1   0    0    -1  
+$EndComp
+$Sheet
+S 1550 3650 1550 1150
+U 4C88B914
+F0 "Luma Separator and clamp" 60
+F1 "NBSCIII-luma-sep.sch" 60
+F2 "+12" I L 1550 3900 60 
+F3 "0" I L 1550 4100 60 
+F4 "Video" I L 1550 4300 60 
+F5 "mid" I L 1550 4000 60 
+F6 "Y-" O R 3100 3900 60 
+$EndSheet
+$Comp
+L CONN_1 P2
+U 1 1 49073560
+P 1100 2800
+F 0 "P2" H 1180 2800 40  0000 L CNN
+F 1 "CONN_1" H 1100 2855 30  0001 C CNN
+	1    1100 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 49073559
+P 1250 2700
+F 0 "#FLG01" H 1250 2970 30  0001 C CNN
+F 1 "PWR_FLAG" H 1250 2930 30  0000 C CNN
+	1    1250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 49073553
+P 1250 1150
+F 0 "#FLG02" H 1250 1420 30  0001 C CNN
+F 1 "PWR_FLAG" H 1250 1380 30  0000 C CNN
+	1    1250 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P1
+U 1 1 4907350D
+P 1100 1150
+F 0 "P1" H 1180 1150 40  0000 L CNN
+F 1 "CONN_1" H 1100 1205 30  0001 C CNN
+	1    1100 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L +12V #PWR03
+U 1 1 4907338C
+P 1400 1150
+F 0 "#PWR03" H 1400 1100 20  0001 C CNN
+F 1 "+12V" H 1400 1250 30  0000 C CNN
+	1    1400 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 4907337D
+P 1400 2850
+F 0 "#PWR04" H 1400 2850 30  0001 C CNN
+F 1 "GND" H 1400 2780 30  0001 C CNN
+	1    1400 2850
+	1    0    0    -1  
+$EndComp
+Text Label 1550 2800 0    60   ~ 0
+0
+Text Label 3250 1150 0    60   ~ 0
++12
+Text Label 3900 1900 0    60   ~ 0
+mid
+$Comp
+L C C1
+U 1 1 490732DA
+P 2350 2450
+F 0 "C1" H 2400 2550 50  0000 L CNN
+F 1 "100u" H 2400 2350 50  0000 L CNN
+	1    2350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 490732D6
+P 2800 2450
+F 0 "C2" H 2850 2550 50  0000 L CNN
+F 1 "100n" H 2850 2350 50  0000 L CNN
+	1    2800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 490732D1
+P 3200 2450
+F 0 "C3" H 3250 2550 50  0000 L CNN
+F 1 "1n" H 3250 2350 50  0000 L CNN
+	1    3200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 49073279
+P 3600 2400
+F 0 "R1" V 3680 2400 50  0000 C CNN
+F 1 "100" V 3600 2400 50  0000 C CNN
+	1    3600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 4907325D
+P 3600 1500
+F 0 "R2" V 3680 1500 50  0000 C CNN
+F 1 "220" V 3600 1500 50  0000 C CNN
+	1    3600 1500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
