@@ -1171,9 +1171,6 @@
     (path "/bda85d00-e8b5-4804-90a4-57f0286de760"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00004c88b914/282c3fd6-1085-423c-bf65-76de25891a44"
-      (reference "#PWR0104") (unit 1) (value "+12V") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00004c88b914/0cbf3938-c42d-4423-a8df-c040da700270"
       (reference "#PWR0105") (unit 1) (value "MID") (footprint "")
     )
@@ -1802,31 +1799,31 @@
       (reference "RV1101") (unit 1) (value "10k") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00004c88b914/00000000-0000-0000-0000-00004907373c"
-      (reference "U1") (unit 1) (value "LM324N") (footprint "")
+      (reference "U1") (unit 1) (value "LM324") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00004c88b914/00000000-0000-0000-0000-000049073a6b"
-      (reference "U1") (unit 2) (value "LM324N") (footprint "")
+      (reference "U1") (unit 2) (value "LM324") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00004d051b42/00000000-0000-0000-0000-00004d055120"
-      (reference "U1") (unit 3) (value "LM324N") (footprint "")
+      (reference "U1") (unit 3) (value "LM324") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00004c88b910/00000000-0000-0000-0000-00004d05501c/00000000-0000-0000-0000-00004d055c82"
-      (reference "U1") (unit 4) (value "LM324N") (footprint "")
+      (reference "U1") (unit 4) (value "LM324") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00004c88b912/00000000-0000-0000-0000-0000490741c2"
       (reference "U2") (unit 1) (value "4053") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00004c88b912/00000000-0000-0000-0000-0000490748a8"
-      (reference "U3") (unit 1) (value "LM324N") (footprint "")
+      (reference "U3") (unit 1) (value "LM324") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00004c88b912/00000000-0000-0000-0000-000049074360"
-      (reference "U3") (unit 2) (value "LM324N") (footprint "")
+      (reference "U3") (unit 2) (value "LM324") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00004c88b912/00000000-0000-0000-0000-000049076b83"
-      (reference "U3") (unit 3) (value "LM324N") (footprint "")
+      (reference "U3") (unit 3) (value "LM324") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00004c88b912/00000000-0000-0000-0000-000049076cda"
-      (reference "U3") (unit 4) (value "LM324N") (footprint "")
+      (reference "U3") (unit 4) (value "LM324") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00004c88b910/00000000-0000-0000-0000-00004907549f"
       (reference "U4") (unit 1) (value "4011") (footprint "")
