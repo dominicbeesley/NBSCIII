@@ -455,6 +455,7 @@
     )
   )
 
+
   (junction (at 130.81 78.74) (diameter 0) (color 0 0 0 0)
     (uuid 03673117-6772-4933-8ee1-47f8d8904aa2)
   )
@@ -1138,7 +1139,7 @@
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 22f62b0e-a726-4ccb-b3d0-6a72081878a0)
   )
-  (label "60kHz" (at 210.82 109.22 0)
+  (label "60kHz" (at 217.17 110.49 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 2f806e8a-1bee-408d-acad-880d606ce723)
   )
