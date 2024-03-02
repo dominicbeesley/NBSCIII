@@ -380,7 +380,6 @@
     )
   )
 
-
   (junction (at 96.52 48.26) (diameter 0) (color 0 0 0 0)
     (uuid 0d572a98-da4f-4c31-bdf7-75340f5d7b1c)
   )
@@ -1301,6 +1300,15 @@
     (path "/00000000-0000-0000-0000-00004c88b910/00000000-0000-0000-0000-000049075508"
       (reference "C205") (unit 1) (value "27p") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00004c88b910/c436048c-dcbe-49b7-b176-987d10df0f4e"
+      (reference "C206") (unit 1) (value "100n") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00004c88b910/042692f1-8fa4-454d-96ca-1cc1468e02f9"
+      (reference "C207") (unit 1) (value "100n") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00004c88b910/ac91be5d-faf0-41f3-b03e-35cefa43ed0a"
+      (reference "C208") (unit 1) (value "100n") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00004c88b90e/00000000-0000-0000-0000-0000490768fd"
       (reference "C301") (unit 1) (value "1u") (footprint "")
     )
@@ -1847,8 +1855,17 @@
     (path "/00000000-0000-0000-0000-00004c88b910/00000000-0000-0000-0000-0000490759c0"
       (reference "U7") (unit 2) (value "4027") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00004c88b910/4719a831-af9e-4be1-89ac-272de53f09b3"
+      (reference "U7") (unit 3) (value "4027") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00004c88b910/00000000-0000-0000-0000-00004cef9ce9"
       (reference "U8") (unit 1) (value "4027") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00004c88b910/cb5c6dba-bf5e-4462-9ebe-8af1bdc27407"
+      (reference "U8") (unit 2) (value "4027") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00004c88b910/9d4c313e-5999-4648-a99b-4c0f87093789"
+      (reference "U8") (unit 3) (value "4027") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00004c88b90e/00000000-0000-0000-0000-000049076792"
       (reference "U9") (unit 1) (value "LM324") (footprint "")
